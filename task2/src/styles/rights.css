@@ -1,0 +1,23 @@
+.rights {
+    margin-top:70px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+h6,a {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height:15px;
+    color:#E4E5EA;
+    text-decoration: none;
+    margin-bottom:5px;
+}
+
+@media all and (max-width:720px) {
+   .rights {
+       margin-top:50px;
+       align-items:flex-start;
+       margin-bottom:60px;
+   }
+}

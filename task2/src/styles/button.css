@@ -1,0 +1,16 @@
+button {
+    background-color:#4077F3 ;
+    color:#E4E5EA;
+    font-family:'Inter', sans-serif;
+    font-size:16px;
+    line-height:19px;
+    width: 262px;
+    height:61px;
+    border:none;
+    cursor:pointer
+}
+@media screen and (max-width:630px) {
+    button {
+        display:none;
+    }
+}

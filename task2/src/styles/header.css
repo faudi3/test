@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+.header {
+    color: white;
+    margin: 46px auto 0;
+    padding-top: 11px;
+    max-width:1140px;
+    display:flex;
+
+}
+.header__logo-wrap {
+    display:flex;
+    align-items:center;
+    padding:0;
+
+
+}
+.header__logo_container {
+    margin:0;
+    padding:0;
+}
+.header__logo-part1 {
+    width: 35px;
+    height:24px;
+}
+.header__logo-part2 {
+    margin-left: 8px;
+    width:95px;
+    height:14px;
+}
+.header__under-text {
+    font-family: 'Montserrat', sans-serif;
+    line-height:12px;
+    font-size:10px;
+    font-weight:300;
+    padding-bottom:4px;
+    padding-top:10px;
+    /*
+    width:165px;
+    */
+    color: #E4E5EA;
+}
+.header__menu {
+    display:flex;
+    margin-left: 52px;
+    text-align: center;
+
+}
+
+.header__menu-item {
+    font-weight:500;
+    font-size:16px;
+    font-family: 'Inter', sans-serif;
+    padding-right:30px;
+    line-height:19px;
+}
+.header__menu-item:last-child {
+    padding-right:0;
+}
+.header__contacts {
+
+    display:flex;
+
+}
+.header__contact {
+    width: 16px;
+    height:16px;
+    margin-left:34px;
+}
+.header__contact:first-child {
+    margin-left:0;
+}
+.header__number {
+    font-family: 'Inter', sans-serif;
+    font-size:16px;
+    line-height:19px;
+    font-weight:500;
+    margin-right: 48px;
+    margin-left:137px;
+}
+@media all and (max-width:1150px) {
+    .header__number,.header__contacts {
+        display:none;
+    }
+    .header {
+        justify-content:center;
+        margin: 0;
+        width:100vw;
+    }
+}
+@media all and (max-width:670px) {
+    .header__logo_container{
+        display:none;
+    }
+    .header {
+        justify-content:center;
+    }
+    .header__menu {
+        margin-left: 0;
+    }
+}
+@media all and (max-width:500px) {
+    .header__logo_container{
+        display:none;
+    }
+    .header {
+        background-color:#0e1014;
+        margin:0 0;
+
+        height:52px;
+        align-items:center;
+
+    }
+    .header__menu-item {
+        padding-right:10px;
+        font-size:12px;
+    }
+}
+@media all and (max-width:350px) {
+
+    .header__menu-item {
+        padding-right:5px;
+        text-transform:uppercase;
+        font-size:10px;
+    }
+}
