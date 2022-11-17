@@ -31,7 +31,9 @@ const Header = () => {
         <p className={"header__menu-item"}>Виджеты</p>
         <p className={"header__menu-item"}>Интеграция</p>
         <p className={"header__menu-item"}>Кейсы</p>
-        <p className={"header__menu-item"}>Сертификаты</p>
+        <p className={"header__menu-item"}>
+          {window.innerWidth > 670 ? "Сертификаты" : ""}
+        </p>
       </menu>
       <p className={"header__number"}>+7 555 555-55-55</p>
       <div className={"header__contacts"}>
